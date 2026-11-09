@@ -1,0 +1,42 @@
+{
+  "name": "local-antispam",
+  "version": "1.0.0",
+  "description": "Stop spam bots on any website form without a captcha or a cloud service. ct_checkjs: a tiny script that sets a cookie, plus a one-line check in your backend.",
+  "keywords": [
+    "antispam",
+    "anti-spam",
+    "spam-protection",
+    "spam",
+    "bot-detection",
+    "form-protection",
+    "captcha-alternative",
+    "no-captcha",
+    "cloudless",
+    "self-hosted",
+    "typescript"
+  ],
+  "homepage": "https://github.com/CleanTalk/local-antispam#readme",
+  "bugs": "https://github.com/CleanTalk/local-antispam/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CleanTalk/local-antispam.git"
+  },
+  "license": "MIT",
+  "author": "CleanTalk (https://cleantalk.org)",
+  "main": "dist/ct_checkjs.js",
+  "browser": "dist/ct_checkjs.js",
+  "types": "dist/ct_checkjs.d.ts",
+  "unpkg": "dist/ct_checkjs.js",
+  "jsdelivr": "dist/ct_checkjs.js",
+  "sideEffects": true,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}
